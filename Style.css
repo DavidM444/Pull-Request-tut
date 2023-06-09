@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;600&family=JetBrains+Mono:ital,wght@1,200&family=Playfair+Display+SC:ital,wght@1,900&display=swap');
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+ 
+    text-align: center;
+    background-color: #0A4D68;
+}
+
+h1,h2 {
+    margin-top: 20px;
+    color: #94DAFF;
+}
+
+ul {
+    background-color: #4CA1A3;
+    list-style-type: none;
+    display: flex;
+    font-weight: 700;
+    margin: 0;
+    padding: 2% 0;
+    
+}
+
+
+li {
+    margin: auto;
+    cursor: pointer;  
+}
+li:hover{
+    color: #00FFCA;
+    font-size: larger;
+}
+
+.description {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: none;
+}
+img{
+    display: flex;
+    width: 60%;
+    margin:auto;
+    padding-top: 3%;
+    
+}
+p{
+    color: #b3dfd9;
+    margin: auto;
+}
+footer{
+    
+    margin: 0 0 2% 0;
+    padding: 0.5% 0;
+    background-color: #4CA1A3;
+}
+footer p{
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+.code{
+    color: #A7E9AF;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    h1,h2{
+        font-size: large;
+    }
+    ul {
+        display: block;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    li {
+        margin-right: 0;
+    }
+    img{
+        width: 90%;
+    }
+}
