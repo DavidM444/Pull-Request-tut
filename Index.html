@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<tml lang="en">
-
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tutorial</title>
         <link rel="stylesheet" href="Style.css">
     </head>
-
-
     <body onload="showDescription(1)">
-
         <h1>Pasos Para Crear Un Pull Request En GitHub</h1>
-        <ul>
-            <li onclick="showDescription(1)">Realizar Fork</li>
-            <li onclick="showDescription(2)">Clorar Repositorio</li>
-            <li onclick="showDescription(3)">Nueva Rama</li>
-            <li onclick="showDescription(4)">Crear cambios</li>
-            <li onclick="showDescription(5)">Commitear cambios</li>
-            <li onclick="showDescription(6)">Crear pull Request</li>
-        </ul>
+        <header>
+            <ul>
+                <li onclick="showDescription(1)">Realizar Fork</li>
+                <li onclick="showDescription(2)">Clorar Repositorio</li>
+                <li onclick="showDescription(3)">Nueva Rama</li>
+                <li onclick="showDescription(4)">Crear cambios</li>
+                <li onclick="showDescription(5)">Commitear cambios</li>
+                <li onclick="showDescription(6)">Crear pull Request</li>
+            </ul>
+        </header>
+        
 
-        <div class="description" id="description1">
+        <section class="description" id="description1">
             <h2>Realizar un FORK del repositorio</h2>
             <p>Vamos al proyecto que queremos realizar el pull request y realizamos un fork de este.
             <p>FORK: Copia Independiente de un proyecto existente.</p>
@@ -29,14 +28,12 @@
             <div>
                 <img src="img/cap1.jpeg" alt="fork repositorio">
                 <img src="img/Captura web_9-6-2023_152936_github.com.jpeg" alt="fork">
-               
-                
+
+
             </div>
+        </section>
 
-
-        </div>
-
-        <div class="description" id="description2">
+        <section class="description" id="description2">
             <h2>Clonar Repositorio</h2>
             <p>Copiamos la url del repositorio de github y lo clonamos en nuestra carpeta localmente con el siguiente
                 comando:</p>
@@ -47,12 +44,9 @@
 
                 <img src="img/clonePNG.PNG" alt="clone comand">
             </div>
+        </section>
 
-
-
-        </div>
-
-        <div class="description" id="description3">
+        <section class="description" id="description3">
             <h2>Creamos una nueva rama</h2>
             <p>Creamos otra rama localmente para relizar los cambios que deseamos realizar al proyecto. Essto lo hacemos
                 con el comando: </p>
@@ -61,20 +55,18 @@
             <div>
                 <img src="img/switchrama.PNG" alt="nueva rama git">
             </div>
+        </section>
 
-
-        </div>
-
-        <div class="description" id="description4">
+        <section class="description" id="description4">
             <h2>Realizar cambios en el proyecto</h2>
             <p>Vamos a nuestro proyecto clonado y realizamos los cambios que deseemos implementar.</p>
             <div>
                 <img src="img/cambio.PNG" alt="metodo java">
             </div>
 
-        </div>
+        </section>
 
-        <div class="description" id="description5">
+        <section class="description" id="description5">
             <h2>Realizar commit de los cambios y subir rama</h2>
             <p>Creamos un nuevo commit para crear cambios que hemos hecho, dandole un nombre acorde a las modificaciones
                 realzadas. Luego subimos nuestra rama local al repositorio.</p>
@@ -84,29 +76,22 @@
             <div>
                 <img src="img/pull.PNG" alt="pull branch">
             </div>
-
-         
-
-
-        </div>
-
-        <div class="description" id="description6">
+        </section>
+        <section class="description" id="description6">
             <h2>Realizamos el pull request</h2>
-            <p>Vamos a nuestro repositorio y nos ubicamos en nuestra nueva rama, abrimos un pull request en la pestaña "contribuir".</p>
-            <p>Luego escribimos un pequeño mensaje acerca de lo que hemos realizado y por último, creamos el pull request.</p>
+            <p>Vamos a nuestro repositorio y nos ubicamos en nuestra nueva rama, abrimos un pull request en la pestaña
+                "contribuir".</p>
+            <p>Luego escribimos un pequeño mensaje acerca de lo que hemos realizado y por último, creamos el pull
+                request.</p>
             <div>
                 <img src="img/Captura web_9-6-2023_155630_github.com.jpeg" alt="">
                 <img src="img/Captura web_9-6-2023_15574_github.com.jpeg" alt="clone repositorio">
                 <img src="img/Captura web_9-6-2023_16032_github.com.jpeg" alt="">
             </div>
-
-        </div>
+        </section>
         <footer>
             <p>Autor: Rodrigo David Muñoz</p>
         </footer>
-
-
     </body>
     <script src="Script.js"></script>
-
-    </html>
+</html>
